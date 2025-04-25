@@ -1,21 +1,14 @@
-plugins {
-    kotlin("jvm") version "1.9.23"
-}
 
-group = "net.dankito.coroutines"
-version = "1.0.0-SNAPSHOT"
+allprojects {
+    group = "net.dankito.coroutines"
+    version = "1.0.0-SNAPSHOT"
 
-repositories {
-    mavenCentral()
-}
+    ext["sourceCodeRepositoryBaseUrl"] = "github.com/dankito/CoroutineExtensions"
 
-dependencies {
-    testImplementation(kotlin("test"))
-}
+    ext["projectDescription"] = "Some additional functionalities missing in core Coroutines library"
 
-tasks.test {
-    useJUnitPlatform()
-}
-kotlin {
-    jvmToolchain(11)
+    repositories {
+        mavenCentral()
+        google()
+    }
 }
