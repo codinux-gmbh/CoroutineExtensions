@@ -1,6 +1,6 @@
 
 allprojects {
-    group = "net.dankito.coroutines"
+    group = "net.dankito.kotlin"
     version = "1.0.0-SNAPSHOT"
 
     ext["sourceCodeRepositoryBaseUrl"] = "github.com/dankito/CoroutineExtensions"
