@@ -1,5 +1,5 @@
 # CoroutineExtensions
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/net.dankito.kotlin/ktor-web-client/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.dankito.kotlin/coroutine-extensions)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/net.codinux.kotlin/coroutine-extensions/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.codinux.kotlin/coroutine-extensions)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Small library with extensions to Coroutines missing in coroutines-core.
@@ -10,14 +10,14 @@ Small library with extensions to Coroutines missing in coroutines-core.
 ### Gradle
 
 ```
-implementation("net.dankito.kotlin:coroutine-extensions:1.0.0")
+implementation("net.codinux.kotlin:coroutine-extensions:1.0.0")
 ```
 
 ### Maven
 
 ```xml
 <dependency>
-   <groupId>net.dankito.web</groupId>
+   <groupId>net.codinux.web</groupId>
    <artifactId>coroutine-extensions-jvm</artifactId>
    <version>1.0.0</version>
 </dependency>
@@ -41,7 +41,7 @@ suspend fun fetchFromNetwork() = withContext(Dispatchers.IOorDefault) {
 
 ## License
 ```
-Copyright 2025 dankito
+Copyright 2025 codinux GmbH & Co.KG
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

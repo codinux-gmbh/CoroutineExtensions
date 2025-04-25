@@ -1,4 +1,4 @@
-package net.dankito.kotlin.coroutines
+package net.codinux.kotlin.coroutines
 
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers

@@ -1,7 +1,8 @@
-package net.dankito.kotlin.coroutines
+package net.codinux.kotlin.coroutines
 
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.IO
 
 
 actual val Dispatchers.IOorDefault: CoroutineDispatcher
