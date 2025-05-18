@@ -10,7 +10,7 @@ Small library with extensions to Coroutines missing in coroutines-core.
 ### Gradle
 
 ```
-implementation("net.codinux.kotlin:coroutine-extensions:1.0.0")
+implementation("net.codinux.kotlin:coroutine-extensions:1.0.1")
 ```
 
 ### Maven
@@ -19,7 +19,7 @@ implementation("net.codinux.kotlin:coroutine-extensions:1.0.0")
 <dependency>
    <groupId>net.codinux.web</groupId>
    <artifactId>coroutine-extensions-jvm</artifactId>
-   <version>1.0.0</version>
+   <version>1.0.1</version>
 </dependency>
 ```
 

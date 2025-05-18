@@ -1,7 +1,7 @@
 
 allprojects {
     group = "net.codinux.kotlin"
-    version = "1.0.1-SNAPSHOT"
+    version = "1.0.1"
 
     ext["sourceCodeRepositoryBaseUrl"] = "github.com/codinux-gmbh/CoroutineExtensions"
 
